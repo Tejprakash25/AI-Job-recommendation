@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul",
+    "text": "Python developer with experience in machine learning, NLP and Flask. Worked on resume parser and recommendation systems."
+  },
+  {
+    "id": 2,
+    "name": "Amit",
+    "text": "Java developer skilled in Spring Boot, MongoDB, REST APIs and microservices."
+  }
+]

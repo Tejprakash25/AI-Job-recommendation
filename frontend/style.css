@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main glass card */
+body > * {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 40px 50px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+  color: #ffffff;
+  max-width: 800px;
+  width: 90%;
+}
+
+/* Heading */
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* Results panel */
+pre {
+  background: rgba(0, 0, 0, 0.35);
+  color: #e0f7ff;
+  padding: 20px;
+  border-radius: 12px;
+  max-height: 350px;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 25px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
