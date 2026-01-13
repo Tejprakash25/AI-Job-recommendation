@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "cd backend-springboot && ./mvnw clean package -DskipTests"
+  },
+  "deploy": {
+    "startCommand": "cd backend-springboot && java -jar target/*.jar"
+  }
+}
