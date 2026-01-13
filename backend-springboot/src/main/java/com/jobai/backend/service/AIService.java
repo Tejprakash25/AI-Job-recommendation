@@ -8,6 +8,6 @@ public class AIService {
 
     public String getMatches() {
         RestTemplate rest = new RestTemplate();
-        return rest.getForObject("http://127.0.0.1:8000/match", String.class);
+        return rest.getForObject("https://ai-job-recommendation-jfcq.onrender.com/match", String.class);
     }
 }
